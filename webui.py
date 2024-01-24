@@ -23,6 +23,10 @@ def create_api(app):
     return api
 
 
+def install_only()
+    initialize.initialize()
+
+
 def api_only():
     from fastapi import FastAPI
     from modules.shared_cmd_options import cmd_opts
